@@ -107,7 +107,7 @@ function ListMovie() {
             <div className="flex flex-col gap-y-4 md:flex-row md:gap-x-4 md:items-center">
               <div className="flex flex-col gap-y-2 relative">
                 <div
-                  className="py-3 px-4 bg-[#EFF0F6] flex justify-beetwen gap-x-10 rounded-lg items-center cursor-pointer"
+                  className="py-3 px-4 bg-[#F5F6F8] flex justify-beetwen gap-x-10 rounded-lg items-center cursor-pointer text-sm"
                   onClick={() => setIsDate((state) => !state)}
                 >
                   <img src={getImageUrl("calendar", "svg")} alt="icon" />
@@ -115,11 +115,11 @@ function ListMovie() {
                   <img src={getImageUrl("Forward", "svg")} alt="icon" />
                 </div>
                 {IsDate && (
-                  <div className="p-4 px-6 bg-[#F5F6F8] rounded-md cursor-pointer w-full absolute top-16 drop-shadow-xl">
-                    <div className="flex flex-col gap-y-3">
+                  <div className="py-2 px-4 bg-[#F5F6F8] rounded-md cursor-pointer w-full absolute top-16 drop-shadow-xl">
+                    <div className="flex flex-col gap-y-3 text-sm">
                       {dataDate.map((result, i) => (
                         <p
-                          className="text-secondary font-semibold"
+                          className="text-secondary font-semibold hover:bg-slate-300 active:bg-slate-300"
                           key={i}
                           onClick={() => {
                             setDate(result);
@@ -135,7 +135,7 @@ function ListMovie() {
               </div>
               <Link
                 to="/admin/addmovie"
-                className="py-3 px-6 bg-primary rounded-lg text-light font-bold focus:ring-2 text-center"
+                className="py-3 px-6 bg-[#1D4ED8] rounded-lg text-white font-bold focus:ring-2 focus:ring-blue-500 text-center text-sm"
               >
                 Add Payment
               </Link>
