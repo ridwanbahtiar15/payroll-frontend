@@ -14,25 +14,25 @@ function Login() {
 
   return (
     <>
-      <main className="w-screen h-screen bg-[#F5F6F8] flex justify-center items-center">
+      <main className="w-screen h-screen bg-[#F5F6F8] max-md:bg-white flex justify-center items-center">
         <div className="w-full h-full flex items-center justify-center">
           <div
             id="White_box"
-            className="pb-10"
+            className=""
             style={{ fontFamily: "Plus Jakarta Sans" }}
           >
             <form className="bg-white flex flex-col gap-4 p-20 rounded-md text-sm w-full">
-              <div className="flex justify-center mb-4">
+              {/* <div className="flex justify-center mb-4">
                 <img
                   src={getImageUrl("logo", "png")}
                   alt="image"
                   className="w-36"
                 />
-              </div>
+              </div> */}
               <p className="text-2xl md:text-[1.8rem] font-bold">
                 Welcome Back👋
               </p>
-              <div id="Email">
+              <div id="Email w-full">
                 <p className="text-secondary font-semibold mb-2">Username</p>
                 <div className="w-full border border-solid border-gray-300 p-3 flex items-center gap-2 rounded-lg">
                   <input
