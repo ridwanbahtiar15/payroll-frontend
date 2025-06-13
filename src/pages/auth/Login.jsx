@@ -22,13 +22,13 @@ function Login() {
             style={{ fontFamily: "Plus Jakarta Sans" }}
           >
             <form className="bg-white flex flex-col gap-4 p-20 rounded-md text-sm w-full">
-              {/* <div className="flex justify-center mb-4">
+              <div className="flex justify-center mb-4">
                 <img
                   src={getImageUrl("logo", "png")}
                   alt="image"
                   className="w-36"
                 />
-              </div> */}
+              </div>
               <p className="text-2xl md:text-[1.8rem] font-bold">
                 Welcome Back👋
               </p>
