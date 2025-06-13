@@ -115,7 +115,7 @@ function ListMovie() {
                   <img src={getImageUrl("Forward", "svg")} alt="icon" />
                 </div>
                 {IsDate && (
-                  <div className="p-4 px-6 bg-[#EFF0F6] rounded-md cursor-pointer w-full absolute top-16 drop-shadow-xl">
+                  <div className="p-4 px-6 bg-[#F5F6F8] rounded-md cursor-pointer w-full absolute top-16 drop-shadow-xl">
                     <div className="flex flex-col gap-y-3">
                       {dataDate.map((result, i) => (
                         <p
