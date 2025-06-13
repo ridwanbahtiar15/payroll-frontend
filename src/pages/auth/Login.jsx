@@ -15,13 +15,13 @@ function Login() {
   return (
     <>
       <main className="w-screen h-screen bg-[#F5F6F8] flex justify-center items-center">
-        <div className="w-full h-full flex items-center justify-center px-4 py-5">
+        <div className="w-full h-full flex items-center justify-center">
           <div
             id="White_box"
             className="pb-10"
             style={{ fontFamily: "Plus Jakarta Sans" }}
           >
-            <form className="bg-white flex flex-col gap-4 px-14 py-14 rounded-md text-sm w-full">
+            <form className="bg-white flex flex-col gap-4 p-20 rounded-md text-sm w-full">
               <div className="flex justify-center mb-4">
                 <img
                   src={getImageUrl("logo", "png")}

@@ -98,10 +98,10 @@ function ListMovie() {
     <>
       <Navbar />
       <main
-        className="py-10 px-11 xl:px-[130px] bg-[#F5F6F8] h-full"
+        className="py-10 px-4 xl:px-[130px] bg-[#F5F6F8] h-full"
         style={{ fontFamily: "Plus Jakarta Sans" }}
       >
-        <section className="w-full bg-light rounded-xl p-10 flex flex-col gap-y-10 bg-[#fff]">
+        <section className="w-full bg-light rounded-xl p-4 md:p-10 flex flex-col gap-y-10 bg-[#fff]">
           <div className="flex flex-col gap-y-4 md:flex-row md:justify-between md:items-center">
             <p className="text-2xl text-dark font-bold">History Payroll</p>
             <div className="flex flex-col gap-y-4 md:flex-row md:gap-x-4 md:items-center">
